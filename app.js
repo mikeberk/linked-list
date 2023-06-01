@@ -135,11 +135,3 @@ class Node {
     this.nextNode = next;
   }
 }
-
-const list = new LinkedList();
-list.append("foo");
-list.prepend("bar");
-list.append("za");
-list.append("he");
-list.insertAt("coo", 8);
-console.log(list.toString());
